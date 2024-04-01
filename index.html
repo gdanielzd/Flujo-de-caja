@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flujo de Caja App</title>
+    <link rel="stylesheet" href="./stylesheet/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flujo de Caja App</h1>
+        <form id="cashFlowForm">
+            <label for="income">Ingresos:</label>
+            <input type="number" id="income" placeholder="Ingrese el monto de ingresos" required>
+            <label for="expenses">Gastos:</label>
+            <input type="number" id="expenses" placeholder="Ingrese el monto de gastos" required>
+            <button type="button" onclick="calculateCashFlow()">Calcular</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
